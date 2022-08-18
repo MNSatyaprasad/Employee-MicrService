@@ -5,17 +5,17 @@ import java.util.List;
 
 public class Employee {
 	
-	private long eId;
+	private Long eId;
 	private String name;
 	private String phone;
 	
 	List<Records> records = new ArrayList<>();
 
-	public long geteId() {
+	public Long geteId() {
 		return eId;
 	}
 
-	public void seteId(long eId) {
+	public void seteId(Long eId) {
 		this.eId = eId;
 	}
 
@@ -43,7 +43,7 @@ public class Employee {
 		this.records = records;
 	}
 
-	public Employee(long eId, String name, String phone, List<Records> records) {
+	public Employee(Long eId, String name, String phone, List<Records> records) {
 		super();
 		this.eId = eId;
 		this.name = name;
@@ -51,7 +51,7 @@ public class Employee {
 		this.records = records;
 	}
 
-	public Employee(long eId, String name, String phone) {
+	public Employee(Long eId, String name, String phone) {
 		super();
 		this.eId = eId;
 		this.name = name;
